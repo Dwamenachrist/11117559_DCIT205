@@ -18,7 +18,7 @@
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 8.8%;
+    top: 7.55%;
     left: 0;
     background-color: #000000;
     overflow-x: hidden;
@@ -54,7 +54,7 @@
 
   }
 
-  .sidenav .active {
+  .sidenav a.active {
     background-color: #4CAF50;
   color: white;
   }
