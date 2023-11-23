@@ -4,6 +4,15 @@
 <meta charset="UTF-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 <style>
 * {
   box-sizing: border-box;
@@ -40,6 +49,7 @@
 }
 
 
+
 </style>
 </head>
 <body>
@@ -48,34 +58,149 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#" class="active">Home</a>
-  <a href="#" class="active">ABOUT</a>
-  <a href="#" class="active">FACULTY</a>
-  <a href="#" clas="active">RESEARCH GROUPS</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">ABOUT</a>
+  <a href="Faculty.html">FACULTY</a>
+  <a href="Research Groups.html">RESEARCH GROUPS</a>
 </div>
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 
 <div class="container">
-  <video src="C:\Users\Christian\Documents\11117559_DCIT205\11117559_DCIT205\video-bg.mp4" alt="The Computer Science Department" class="video-background" autoplay loop muted>
-  </video>
-
-  <div class="wrapper">
-    <h3 class="Short-courses">Short Courses</h3>
-  </div>
+  <img src="about.jpg" width="100%" height="300">
 </div>
 
 
 
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
+
+<section class="about-Department">
+  <div class="about-Department-Welcome">
+    <h3>Welcome</h3>
+  </div>
+  <div class="about-Department-text">
+    <p>This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances. Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.</p>
+    <p>&nbsp;</p>
+    <p>The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team. The course also provides the platform for further study or research through exposure to established and emerging technologies and methods, and to active fields of research in Computer Science.</p>
+    <p>&nbsp;</p>
+    <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
+    <hr>  
+  </div>
+
+
+</section>
+
+<section class="section2">
+  <div class="container2">
+    <div class="image-container">
+      <img src="our organization.jpg" alt="Our Organization">
+    </div>
+    <div class="text-container">
+      <h2>Our Organization</h2>
+      <p>The University of Ghana is one of the Africa's most preeminent public universities. Our impact on individuals, our region and the world is profound. whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research. UG educates more than 38,000students annually, with approximately 2.64% being computer science students. We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.</p>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="image-container">
+      <img src="image1.jpg" alt="Image 1">
+    </div>
+    <div class="text-container">
+      <h2>Our Community</h2>
+      <p>If you are inspired by a big challenge, you've come to the right place! The computer science community at the univrersity of Ghana encourages it's people to be vibrant and brave in taking on new challenges that push boundries beyond imagination.</p>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="image-container">
+      <img src="image2.jpg" alt="Image 2">
+    </div>
+    <div class="text-container2">
+      <h2>Distance Learning</h2>
+      <p>Experience a UG-CDCD classroom from wherever you are. Take advantage of real-time lectures and personal interaction with professors through a suite of online delivery options, customizing your degree to fit your schedule. Our online classroom maintains the same level of academic rigor, while providing students with more ways of learning.</p>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="video-container">
+      <iframe src="video-bg.mp4" allowfullscreen></iframe>
+    </div>
+    <div class="text-container">
+      <h2>Building Our Future</h2>
+      <p>So what defines our students, faculty and community members? Above all, its our belief in the infinite possibilitie and our unshakable optimism. Its a connection to others near and far. A hunger for socio-economic transformation that pushes us to tackle challenges and pursue progress. Its the conviction that together we can create a world of good. Join us on the journey.</p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-section">
+      <h3>Academics</h3>
+      <ul>
+        <li><a href="#">Undergraduate Programmes</a></li>
+        <li><a href="#">Postgraduate Programmes</a></li>
+        <li><a href="#">Distance Learning</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Exchange Programmes</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Student Life</a></li>
+        <li><a href="#">Alumni</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Admissions</h3>
+      <ul>
+        <li><a href="#">Application Process</a></li>
+        <li><a href="#">Admission Requirements</a></li>
+        <li><a href="#">Financial Aid</a></li>
+        <li><a href="#">Scholarships</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Research</h3>
+      <ul>
+        <li><a href="#">Research Groups</a></li>
+        <li><a href="#">Research Opportunities</a></li>
+        <li><a href="#">Publications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>About The Department</h3>
+      <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Faculty</a></li>
+        <li><a href="#">News & Events</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="newsletter-form">
+      <h4>Newsletter</h4>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Phone: +233 501 382 035</a></li>
+        <li><a href="#">Phone: +233 559 145 698</a></li>
+        <li><a href="#">Email: dcs@ug.edu.gh</a></li>
+        <li>
+          <a href="#">Location:</a>
+          <p>University Of Ghana, Legon Campus</p>
+          <p>Opposite Mathematics Department</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
