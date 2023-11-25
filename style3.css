@@ -1,0 +1,135 @@
+/* Global styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Main section */
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Section headings */
+  
+  section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  /* Section paragraphs */
+  
+  section p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  /* Faculty achievements section */
+  
+  .faculty-achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faculty-achievements ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  /* Research areas section */
+  
+  .research-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .research-box img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .research-box h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .research-box p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+  }
+  
+  /* Faculty profiles section */
+  
+  .faculty-profiles {
+    margin-bottom: 30px;
+  }
+  
+  .faculty-profile {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .faculty-profile img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .faculty-profile h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .faculty-profile p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+  }
+  
+  .faculty-profile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faculty-profile ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .faculty-profile a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9A6759;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  

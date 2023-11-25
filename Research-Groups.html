@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style4.css">
+<style>
+* {
+  box-sizing: border-box;
+}  
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 50px; 
+  height: 40px;
+  z-index: 1;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+</style>
+</head>
+<body>  
+
+<a href="https://dcs.ug.edu.gh/"> <img class="logo" src="comScience_logo.png"> </a>  
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">ABOUT</a>
+  <a href="Faculty.html">FACULTY</a>
+  <a href="Research-Groups.html">RESEARCH GROUPS</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<section class="resource-organization">
+  <div class="resource-organization-image">
+    <img src="resource-organization-image1.jpg" alt="Resource Organization Image 1" class="img-fluid fade-in">
+    <img src="resource-organization-image2.jpg" alt="Resource Organization Image 2" class="img-fluid fade-out">
+  </div>
+
+<section class="resource-organization">
+  <div class="resource-organization-intro">
+    <h2>Resource Organization</h2>
+    <p>At our organization, we understand the importance of effective resource organization. We strive to optimize our resources to maximize productivity, efficiency, and success. Our approach to resource organization encompasses various aspects, including:</p>
+  </div>
+  
+  <div class="resource-organization-categories">
+    <h3>Categories of Resources</h3>
+    <ul>
+      <li>1. Human Resources</li>
+      <li>2. Financial Resources</li>
+      <li>3. Physical Resources</li>
+      <li>4. Technological Resources</li>
+      <li>5. Information Resources</li>
+    </ul>
+  </div>
+  
+  <div class="resource-organization-details">
+    <h3>1. Human Resources</h3>
+    <p>Our organization recognizes that our most valuable resource is our people. We focus on recruiting, developing, and retaining talented individuals who are passionate about our mission. We invest in training and professional development programs to enhance the skills and knowledge of our workforce. By fostering a positive and inclusive work environment, we empower our employees to contribute their best and achieve their full potential.</p>
+  
+    <h3>2. Financial Resources</h3>
+    <p>Effective financial resource management is essential for the success of our organization. We implement sound financial practices, including budgeting, forecasting, and financial analysis. By carefully allocating our financial resources, we ensure that we can fund our operations, projects, and initiatives. We also explore opportunities for funding partnerships and grants to expand our financial capabilities and drive innovation.</p>
+  
+    <h3>3. Physical Resources</h3>
+    <p>Our physical resources include facilities, equipment, and infrastructure necessary for our operations. We prioritize the maintenance, safety, and efficiency of our physical assets. Regular inspections, maintenance schedules, and investments in modern technology and equipment are part of our resource management strategy. By providing a conducive physical environment, we enable our employees to perform their tasks effectively and deliver high-quality results.</p>
+  
+    <h3>4. Technological Resources</h3>
+    <p>In today's digital age, technological resources play a crucial role in our organization. We leverage cutting-edge technologies and software solutions to streamline processes, enhance communication, and improve productivity. We invest in robust IT infrastructure, cybersecurity measures, and software applications to ensure the security and reliability of our technological resources. Regular upgrades and training programs are implemented to stay up-to-date with the latest advancements.</p>
+  
+    <h3>5. Information Resources</h3>
+    <p>Information is a valuable resource that drives decision-making and strategic planning. We have established efficient systems for collecting, organizing, and analyzing data and information. Our organization places great emphasis on data integrity, confidentiality, and accessibility. By utilizing information resources effectively, we gain insights, identify trends, and make informed decisions that contribute to our overall success.</p>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-section">
+      <h3>Academics</h3>
+      <ul>
+        <li><a href="#">Undergraduate Programmes</a></li>
+        <li><a href="#">Postgraduate Programmes</a></li>
+        <li><a href="#">Distance Learning</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Exchange Programmes</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Student Life</a></li>
+        <li><a href="#">Alumni</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Admissions</h3>
+      <ul>
+        <li><a href="#">Application Process</a></li>
+        <li><a href="#">Admission Requirements</a></li>
+        <li><a href="#">Financial Aid</a></li>
+        <li><a href="#">Scholarships</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Research</h3>
+      <ul>
+        <li><a href="#">Research Groups</a></li>
+        <li><a href="#">Research Opportunities</a></li>
+        <li><a href="#">Publications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>About The Department</h3>
+      <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Faculty</a></li>
+        <li><a href="#">News & Events</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="newsletter-form">
+      <h4>Newsletter</h4>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Phone: +233 501 382 035</a></li>
+        <li><a href="#">Phone: +233 559 145 698</a></li>
+        <li><a href="#">Email: dcs@ug.edu.gh</a></li>
+        <li>
+          <a href="#">Location:</a>
+          <p>University Of Ghana, Legon Campus</p>
+          <p>Opposite Mathematics Department</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+ 
+</body>
+</html>

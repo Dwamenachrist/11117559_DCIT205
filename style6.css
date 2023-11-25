@@ -1,0 +1,105 @@
+/* General styles */
+.catalog-page {
+    padding: 30px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Header */
+  .catalog-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .catalog-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  /* Main */
+  .catalog-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Categories */
+  .catalog-categories {
+    width: 250px;
+    margin-right: 30px;
+  }
+  
+  .catalog-categories h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .catalog-categories ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .catalog-categories li {
+    margin-bottom: 10px;
+  }
+  
+  .catalog-categories a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Products */
+  .catalog-products {
+    flex-grow: 1;
+  }
+  
+  .catalog-products h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .catalog-products ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-item {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  /* Course-specific adjustments */
+  .course-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .course-details h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .course-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .course-details a {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

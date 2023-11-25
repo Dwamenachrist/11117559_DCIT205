@@ -4,43 +4,8 @@
 <meta charset="UTF-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
-<style>
-* {
-  box-sizing: border-box;
-}  
-
-.container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.image {
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 50px; 
-  height: 40px;
-  z-index: 1;
-}
-
-
-
-
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 55%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-
-</style>
+<link rel="stylesheet" href="style5.css">
+<title>Upcoming Events</title>
 </head>
 <body>
 
@@ -51,54 +16,10 @@
   <a href="index.html">Home</a>
   <a href="About.html">ABOUT</a>
   <a href="Faculty.html">FACULTY</a>
-  <a href="Research Groups.html">RESEARCH GROUPS</a>
+  <a href="Research-Groups.html">RESEARCH GROUPS</a>
 </div>
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-<div class="container">
-  <div class="text-on-video">
-    <h4>
-      Embark on a world-class computer science journey with us.</h4>
-  </div>
-  <video src="C:\Users\Christian\Documents\11117559_DCIT205\11117559_DCIT205\video-bg.mp4" alt="The Computer Science Department" class="video-background" autoplay loop muted>
-  </video>
-
-    <div class="courses-container">
-      <div class="courses-container-link">
-      <h4><a href="https://dcs.ug.edu.gh/short-courses">Short Courses</a></h4>
-      </div>
-      <div class="courses-container-text">
-      <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p>
-    </div>
-    </div>    
-    <div class="courses-container">
-      <div class="courses-container-link">
-      <h4> <a href="https://dcs.ug.edu.gh/undergraduate">undergraduate programmes</a></h4>
-      </div>
-    <div class="courses-container-text">
-      <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.</p></div>   
-    </div>
-    <div class="courses-container">
-      <div class="courses-container-link">
-      <h4> <a href="https://dcs.ug.edu.gh/masters">Masters programmes</a></h4>
-      </div>  
-      <div class="courses-container-text">
-          <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.</p>
-        </div>    
-    </div>
-    <div class="courses-container">
-      <div class="courses-container-link">
-      <h4> <a href="https://dcs.ug.edu.gh/doctrate">PhD programmes</a></h4>
-      </div>  
-      <div class="courses-container-text">
-          <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p>
-        </div>  
-    </div>
-
-    </div>
-  </div>  
-
 
 <script>
 function openNav() {
@@ -110,8 +31,133 @@ function closeNav() {
 }
 </script>
 
+<div class="resource-organization-image">
+  <img src="resource-organization-image1.jpg" alt="Resource Organization Image 1" class="img-fluid fade-in">
+  <img src="resource-organization-image2.jpg" alt="Resource Organization Image 2" class="img-fluid fade-out">
+</div>
+
+<section class="event-page">
+  <div class="event-page-header">
+    <h1>Upcoming Events</h1>
+  </div>
+
+  <div class="event-list">
+    <div class="event-item">
+      <img src="event-image1.jpg" alt="Event Image 1" class="event-image">
+      <div class="event-details">
+        <h2>Workshop on Data Analysis</h2>
+        <p>Join us for a hands-on workshop on data analysis techniques using Python.</p>
+        <div class="event-info">
+          <span>Date:</span> October 4, 2023
+          <span>Time:</span> 10:00 AM - 12:00 PM
+          <span>Location:</span> Computer Science Building, Room 101
+        </div>
+        <a href="#">Register</a>
+      </div>
+    </div>
+
+    <div class="event-item">
+      <img src="event-image2.jpg" alt="Event Image 2" class="event-image">
+      <div class="event-details">
+        <h2>Seminar on Artificial Intelligence</h2>
+        <p>Explore the latest advancements in artificial intelligence with experts from industry and academia.</p>
+        <div class="event-info">
+          <span>Date:</span> October 11, 2023
+          <span>Time:</span> 2:00 PM - 4:00 PM
+          <span>Location:</span> Auditorium, Main Building
+        </div>
+        <a href="#">Register</a>
+      </div>
+    </div>
+
+    <div class="event-item">
+      <img src="event-image3.jpg" alt="Event Image 3" class="event-image">
+      <div class="event-details">
+        <h2>Career Fair</h2>
+        <p>Network with potential employers and explore career opportunities in the tech industry.</p>
+        <div class="event-info">
+          <span>Date:</span> October 18, 2023
+          <span>Time:</span> 11:00 AM - 3:00 PM
+          <span>Location:</span> Student Center
+        </div>
+        <a href="#">Register</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-section">
+      <h3>Academics</h3>
+      <ul>
+        <li><a href="#">Undergraduate Programmes</a></li>
+        <li><a href="#">Postgraduate Programmes</a></li>
+        <li><a href="#">Distance Learning</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Exchange Programmes</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Student Life</a></li>
+        <li><a href="#">Alumni</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Admissions</h3>
+      <ul>
+        <li><a href="#">Application Process</a></li>
+        <li><a href="#">Admission Requirements</a></li>
+        <li><a href="#">Financial Aid</a></li>
+        <li><a href="#">Scholarships</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Research</h3>
+      <ul>
+        <li><a href="#">Research Groups</a></li>
+        <li><a href="#">Research Opportunities</a></li>
+        <li><a href="#">Publications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>About The Department</h3>
+      <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Faculty</a></li>
+        <li><a href="#">News & Events</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="newsletter-form">
+      <h4>Newsletter</h4>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Phone: +233 501 382 035</a></li>
+        <li><a href="#">Phone: +233 559 145 698</a></li>
+        <li><a href="#">Email: dcs@ug.edu.gh</a></li>
+        <li>
+          <a href="#">Location:</a>
+          <p>University Of Ghana, Legon Campus</p>
+          <p>Opposite Mathematics Department</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
  
 </body>

@@ -1,0 +1,90 @@
+.resource-organization {
+    padding: 30px;
+    background-color: #f2f2f2;
+  }
+  
+  .resource-organization-image {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .resource-organization-image img {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .resource-organization-image:hover img {
+    opacity: 0.8;
+  }
+  
+  .resource-organization-intro {
+    text-align: center;
+  }
+  
+  .resource-organization-intro h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .resource-organization-intro p {
+    font-size: 16px;
+    line-height: 1.5;
+  } 
+  .resource-organization-intro {
+    text-align: center;
+  }
+  
+  .resource-organization-intro h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .resource-organization-intro p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .resource-organization-categories {
+    margin-top: 30px;
+  }
+  
+  .resource-organization-categories h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .resource-organization-categories ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resource-organization-categories li {
+    margin-bottom: 10px;
+  }
+  
+  .resource-organization-categories li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .resource-organization-details {
+    margin-top: 30px;
+  }
+  
+  .resource-organization-details h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .resource-organization-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
