@@ -1,6 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
+ * body {
+  margin: 10px;
+  
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
@@ -21,6 +21,7 @@ a {
   font-size: 48px;
   color: rgb(0, 0, 0);
   text-align: center;
+  top: -15%;
   font-size: 5vw;
  }
 
@@ -31,17 +32,22 @@ a {
   height: 50px;
   background-color: burlywood;
   margin: 30px 10px;
-  padding: 20px 15px;
   display: flex;
   flex-direction: column;
   box-shadow: 0.5px 10px rgb(52, 47, 188);
+
   
 }
+
+a {
+  text-decoration: none;
+}
 .courses-container-link {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-top: -10px; 
 }
 .courses-container-text{
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   text-align: center;
   font-size: 15px;
 }
