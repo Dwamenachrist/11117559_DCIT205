@@ -1,15 +1,161 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Computer Science Department</title>
-        
-    </head>
-    <body>
-    <h2>Contact Us</h2>
-    <h3>Phone and Email</h3> 
-       
-    <p class="p-welcome">+233 501 382 035</p>
-    <p class="p-welcome">+233 557 537 713</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department - Contact Us</title>
     
-    </body>
+    <link rel="stylesheet" href="style9.css">
+</head>
+<body>
+    <header>
+        <a href="https://dcs.ug.edu.gh/"> <img class="logo" src="comScience_logo.png"> </a>  
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">ABOUT</a>
+  <a href="Faculty.html">FACULTY</a>
+  <a href="Research-Groups.html">RESEARCH GROUPS</a>
+</div>
+
+<div id="mySidebuttons" class="sidebuttons">
+  <a href="events.html" id="events">Events</a>
+  <a href="catalog.html" id="catalog">Catalog</a>
+  <a href="resources.html" id="resources">Resources</a>
+  <a href="News.html" id="news">News</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+<div class="container">
+  <div class="text-on-video">
+    <h6>
+      Embark on a world-class computer science journey with us.</h6>
+  </div>
+  
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    </header>
+
+    <section class="contact-section">
+        <div class="container2">
+            <h2>Contact Us</h2>
+            <p>We are here to answer your questions and help you get connected with our department.</p>
+
+            <div class="contact-form">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-section">
+            <h3>Academics</h3>
+            <ul>
+              <li><a href="#">Undergraduate Programmes</a></li>
+              <li><a href="#">Postgraduate Programmes</a></li>
+              <li><a href="#">Distance Learning</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Exchange Programmes</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Student Life</a></li>
+              <li><a href="#">Alumni</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Admissions</h3>
+            <ul>
+              <li><a href="#">Application Process</a></li>
+              <li><a href="#">Admission Requirements</a></li>
+              <li><a href="#">Financial Aid</a></li>
+              <li><a href="#">Scholarships</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Research</h3>
+            <ul>
+              <li><a href="#">Research Groups</a></li>
+              <li><a href="#">Research Opportunities</a></li>
+              <li><a href="#">Publications</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>About The Department</h3>
+            <ul>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Faculty</a></li>
+              <li><a href="#">News & Events</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <div class="newsletter-form">
+            <h4>Newsletter</h4>
+            <form action="#">
+              <input type="email" placeholder="Enter your email address">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+      
+          <div class="contact-info">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><a href="#">Phone: +233 501 382 035</a></li>
+              <li><a href="#">Phone: +233 559 145 698</a></li>
+              <li><a href="#">Email: dcs@ug.edu.gh</a></li>
+              <li>
+                <a href="#">Location:</a>
+                <p>University Of Ghana, Legon Campus</p>
+                <p>Opposite Mathematics Department</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>   
+</body>
 </html>

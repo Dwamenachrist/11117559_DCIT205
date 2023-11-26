@@ -1,13 +1,43 @@
- * body {
-  margin: 10px;
-  
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
-}
 
 a {
   color: rgb(52, 47, 188);
 }
 
+#mySidebuttons a {
+  position: absolute;
+  right: -px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidebuttons a:hover {
+  right: 0;
+}
+
+#events {
+  top: 20px;
+  background-color: rgb(55, 52, 99);
+}
+
+#catalog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#resources {
+  top: 140px;
+  background-color: #36d8f4;
+}
+
+#news {
+  top: 200px;
+  background-color: rgb(41, 227, 221)
+}
 .container {
   display: flex;
   justify-content: space-between;
