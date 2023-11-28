@@ -105,6 +105,7 @@
     cursor: pointer;
   }
   
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -228,41 +229,7 @@
     cursor: pointer;
 }
 
-#mySidebuttons a {
-    position: absolute;
-    right: -10px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 100px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-  }
-  
-  #mySidebuttons a:hover {
-    right: 0;
-  }
-  
-  #events {
-    top: 20px;
-    background-color: rgb(55, 52, 99);
-  }
-  
-  #catalog {
-    top: 80px;
-    background-color: #2196F3;
-  }
-  
-  #resources {
-    top: 140px;
-    background-color: #36d8f4;
-  }
-  
-  #news {
-    top: 200px;
-    background-color: rgb(41, 227, 221)
-  }
+
 
   .footer {
     background-color: rgb(44, 42, 88);
@@ -367,3 +334,101 @@
     font-size: 14px;
   }
   
+  #mySided {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 80px;
+    padding-top: 20px;
+    right: 0;
+  }
+  
+  #mySided a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #mySided a:hover {
+    right: 0;
+  }
+  
+  #events {
+      top: 20px;
+      background-color: rgb(55, 52, 99);
+    }
+    
+    #catalog {
+      top: 80px;
+      background-color: #2196F3;
+    }
+    
+    #resources {
+      top: 140px;
+      background-color: #36d8f4;
+    }
+    
+    #news {
+      top: 200px;
+      background-color: rgb(41, 227, 221)
+    }
+  
+    #contact {
+      top: 260px;
+      background-color: aquamarine;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.3s ease-in-out;
+    padding-top: 60px;
+  }
+  
+  .sidenav
+   
+  a {
+    padding: 8px
+   
+  8px
+   
+  8px
+   
+  32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

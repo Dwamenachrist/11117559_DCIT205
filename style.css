@@ -3,40 +3,54 @@ a {
   color: rgb(52, 47, 188);
 }
 
-#mySidebuttons a {
+#mySided {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 80px;
+  padding-top: 20px;
+  right: 0;
+}
+
+#mySided a {
   position: absolute;
-  right: -px;
+  right: -60px;
   transition: 0.3s;
   padding: 15px;
   width: 100px;
   text-decoration: none;
   font-size: 20px;
   color: white;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px 0 0 5px;
 }
 
-#mySidebuttons a:hover {
+#mySided a:hover {
   right: 0;
 }
 
 #events {
-  top: 20px;
-  background-color: rgb(55, 52, 99);
-}
+    top: 20px;
+    background-color: rgb(55, 52, 99);
+  }
+  
+  #catalog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #resources {
+    top: 140px;
+    background-color: #36d8f4;
+  }
+  
+  #news {
+    top: 200px;
+    background-color: rgb(41, 227, 221)
+  }
 
-#catalog {
-  top: 80px;
-  background-color: #2196F3;
-}
-
-#resources {
-  top: 140px;
-  background-color: #36d8f4;
-}
-
-#news {
-  top: 200px;
-  background-color: rgb(41, 227, 221)
+  #contact {
+    top: 260px;
+    background-color: aquamarine;
 }
 .container {
   display: flex;
@@ -186,11 +200,11 @@ a {
 .about-Department-Welcome {
 text-align: center;
 text-align-last:center;
-display: flexbox;
 color: #000080;
-font-size: 24px;
+font-size: 30px;
   width: 100%;
   height: 25%;
+margin-top: -5%;  
 }
 
 .about-Department-text {
@@ -215,7 +229,7 @@ hr {
   height: 50%;
   padding: 60px 0px;
   margin-top: 100px;
-  color: rgb(44, 42, 88);
+  color: rgb(70, 75, 180);
 }
 .container2 {
   display: flex;
@@ -249,7 +263,7 @@ iframe {
 }
 
 .footer {
-  background-color: rgb(44, 42, 88);
+  background-color: 	rgb(0, 0, 158);
   padding: 30px;
   color: white;
 }

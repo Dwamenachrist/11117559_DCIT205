@@ -6,11 +6,6 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="style3.css">
 
-<div class="header-container">
-  <img src="faculty-logo.png" alt="Faculty Logo">
-  <h1>Computer Science Faculty</h1>
-</div>
-
 <style>
 * {
   box-sizing: border-box;
@@ -18,7 +13,7 @@
 
 .container {
   position: relative;
-  width: 100%;
+  width: 98%;
   height: 100vh;
   overflow: hidden;
 }
@@ -44,6 +39,7 @@
   height: 55%;
   object-fit: cover;
   z-index: -1;
+
 }
 
 
@@ -58,19 +54,27 @@
   <a href="index.html" class="active">Home</a>
   <a href="About.html" class="active">ABOUT</a>
   <a href="Faculty.html" class="active">FACULTY</a>
-  <a href="Research-Groups" clas="active">RESEARCH GROUPS</a>
+  <a href="Research-Groups.html" clas="active">RESEARCH GROUPS</a>
   <a href="resources.html">Resources</a>
   <a href="events.html">Events</a>
 </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+<div id="mySided" class="sided">
+  <a href="events.html" id="events">Events</a>
+  <a href="catalog" id="catalog">Catalog</a>
+  <a href="resources.html" id="resources">Resources</a>
+  <a href="News.html" id="news">News</a>
+  <a href="contact.html" id="contact">Contacts</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
 <div class="container">
   <video src="C:\Users\Christian\Documents\11117559_DCIT205\11117559_DCIT205\video-bg.mp4" alt="The Computer Science Department" class="video-background" autoplay loop muted>
   </video>
 
   <div class="wrapper">
-    <h3 class="Short-courses">Short Courses</h3>
+    <h3 class="Short-courses">Our Dedicated Faculty</h3>
   </div>
 </div>
 
@@ -86,16 +90,16 @@ function closeNav() {
 }
 </script>
 
-   
-
   <main>
     <section class="main-overview">
-      <h2>At the Forefront of Computer Science</h2>
+      <div class="header-container">
+        <h1>At the Forefront of Computer Science</h1>
+      </div>
       <p>Our esteemed faculty members are pioneers in their respective fields, shaping the future of computer science with groundbreaking research and unwavering dedication to student success.</p>
     </section>
 
     <section class="faculty-achievements">
-      <h2>Faculty Achievements</h2>
+      <h1>Faculty Achievements</h1>
       <ul>
         <li>Over 200 peer-reviewed publications in top-tier journals</li>
         <li>Numerous research grants from prestigious funding agencies</li>
@@ -105,7 +109,7 @@ function closeNav() {
     </section>
 
     <section class="research-areas">
-      <h2>Research Frontiers</h2>
+      <h1>Research Frontiers</h1>
       <p>Our faculty members are actively engaged in cutting-edge research across a broad spectrum of computer science disciplines.</p>
       <div class="research-box">
         <img src="research-icon-ai.png" alt="Artificial Intelligence Icon">
@@ -133,7 +137,7 @@ function closeNav() {
     </section>
 
     <section class="teaching-expertise">
-      <h2>Exceptional Teaching</h2>
+      <h1>Exceptional Teaching</h1>
       <p>Our faculty members are committed to providing students with a transformative learning experience.</p>
       <ul>
         <li>Innovative teaching methodologies and engaging learning activities</li>
@@ -144,7 +148,7 @@ function closeNav() {
     </section>
 
     <section class="faculty-profiles">
-      <h2>Our Distinguished Faculty</h2>
+      <h1>Our Distinguished Faculty</h1>
       <div class="faculty-profile">
         <img src="faculty-profile-1.jpg" alt="Faculty Profile 1">
         <h3>Dr. John Smith</h3>
@@ -201,6 +205,11 @@ function closeNav() {
           <li><a href="#">Faculty</a></li>
           <li><a href="#">News & Events</a></li>
           <li><a href="#">Contact Us</a></li>
+          <li>
+            <a href="#">Location:</a>
+            <p>University Of Ghana, Legon Campus</p>
+            <p>Opposite Mathematics Department</p>
+          </li>
         </ul>
       </div>
     </div>
@@ -220,11 +229,6 @@ function closeNav() {
           <li><a href="#">Phone: +233 501 382 035</a></li>
           <li><a href="#">Phone: +233 559 145 698</a></li>
           <li><a href="#">Email: dcs@ug.edu.gh</a></li>
-          <li>
-            <a href="#">Location:</a>
-            <p>University Of Ghana, Legon Campus</p>
-            <p>Opposite Mathematics Department</p>
-          </li>
         </ul>
       </div>
     </div>

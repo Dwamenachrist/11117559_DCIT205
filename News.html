@@ -1,17 +1,154 @@
 <!DOCTYPE html>
-<html>
-<head>    
+<html lang="en">
+<head>
+<meta charset="UTF-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="style9.css">
+<link rel="stylesheet" href="style2.css">
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+  <style>body {
+    background-image: url('e-mail-3597088.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}</style>
+
 </head>
 <body>
 
-<div id="mySidebuttons" class="sidebuttons">
+<img class="logo" src="C:\Users\Christian\Documents\11117559_DCIT205\11117559_DCIT205\comScience_logo.png">  
+
+<div id="mySided" class="sided">
   <a href="events.html" id="events">Events</a>
-  <a href="catalog.html" id="catalog">Catalog</a>
+  <a href="catalog" id="catalog">Catalog</a>
   <a href="resources.html" id="resources">Resources</a>
   <a href="News.html" id="news">News</a>
+  <a href="contact.html" id="contact">Contacts</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="About.html">ABOUT</a>
+  <a href="Faculty.html">FACULTY</a>
+  <a href="Research-Groups.html">RESEARCH GROUPS</a>
+  <a href="student.html" id="students">Students</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+<div class="container5">
+  <header>
+      <h1>Computer Science News</h1>
+  </header>
+
+  <main>
+      <div class="card5">
+          <img src="news-image1.jpg" alt="News Image 1">
+          <h2>Breaking News: CS Department Receives Grant for Innovative Research</h2>
+          <p>The Department of Computer Science at [University Name] has been awarded a grant of [Grant Amount] from [Grant Provider] to support groundbreaking research in [Research Area]. This grant will enable the department to...</p>
+          <a href="#">Read More</a>
+      </div>
+
+      <div class="card5">
+          <img src="news-image2.jpg" alt="News Image 2">
+          <h2>CS Students Develop App to Improve Campus Accessibility</h2>
+          <p>A team of computer science students at [University Name] has developed an innovative app designed to enhance accessibility for students with disabilities. The app, called [App Name],...</p>
+          <a href="#">Read More</a>
+      </div>
+
+      <div class="card5">
+          <img src="news-image3.jpg" alt="News Image 3">
+          <h2>CS Department Hosts Guest Lecture on Artificial Intelligence</h2>
+          <p>The Department of Computer Science at [University Name] will host a guest lecture on artificial intelligence by [Guest Speaker Name], a leading expert in the field. The lecture will...</p>
+          <a href="#">Read More</a>
+      </div>
+  </main>
+</div>
+
+
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-section">
+      <h3>Academics</h3>
+      <ul>
+        <li><a href="#">Undergraduate Programmes</a></li>
+        <li><a href="#">Postgraduate Programmes</a></li>
+        <li><a href="#">Distance Learning</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Exchange Programmes</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Student Life</a></li>
+        <li><a href="#">Alumni</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Admissions</h3>
+      <ul>
+        <li><a href="#">Application Process</a></li>
+        <li><a href="#">Admission Requirements</a></li>
+        <li><a href="#">Financial Aid</a></li>
+        <li><a href="#">Scholarships</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Research</h3>
+      <ul>
+        <li><a href="#">Research Groups</a></li>
+        <li><a href="#">Research Opportunities</a></li>
+        <li><a href="#">Publications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>About The Department</h3>
+      <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Faculty</a></li>
+        <li><a href="#">News & Events</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li>
+          <a href="#">Location:</a>
+          <p>University Of Ghana, Legon Campus</p>
+          <p>Opposite Mathematics Department</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="newsletter-form">
+      <h4>Newsletter</h4>
+      <form action="#">
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="#">Phone: +233 501 382 035</a></li>
+        <li><a href="#">Phone: +233 559 145 698</a></li>
+        <li><a href="#">Email: dcs@ug.edu.gh</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
