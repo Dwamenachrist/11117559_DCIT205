@@ -110,3 +110,52 @@ h2 {
     transition: color 0.3s ease-in-out;
   }
   
+  #mySided {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 85px;
+    padding-top: 20px;
+    right: 0;
+  }
+  
+  #mySided a {
+    position: absolute;
+    right: -65px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #mySided a:hover {
+    right: 0;
+  }
+  
+  #events {
+      top: 20px;
+      background-color: rgb(0, 0, 158);
+    }
+    
+    #catalog {
+      top: 80px;
+      background-color: #2196F3;
+    }
+    
+    #resources {
+      top: 140px;
+      background-color: #36d8f4;
+    }
+    
+    #news {
+      top: 200px;
+      background-color: rgb(41, 227, 221)
+    }
+  
+    #contact {
+      top: 260px;
+      background-color: aquamarine;
+  }
