@@ -28,11 +28,11 @@
 }
 
 .video-background {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: -1;
   left: 0;
   width: 100%;
-  height: 55%;
+  height: 100%;
   object-fit: cover;
   z-index: -1;
 }
@@ -43,6 +43,9 @@
 <body>  
 
 <a href="https://dcs.ug.edu.gh/"> <img class="logo" src="comScience_logo.png"> </a>  
+
+<video src="research group.mp4" alt="The Computer Science Department" class="video-background" autoplay loop muted>
+</video>
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -72,16 +75,15 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<video src="Welcome.mp4" alt="The Computer Science Department" class="video-background" autoplay loop muted>
+<video src="research group.mp4" alt="The Computer Science Department" class="video-background" autoplay loop muted>
 </video>
-<section class="resource-organization">
 
-<section class="resource-organization">
+<section class="resource-organization" style="z-index: 2;">
   <div class="resource-organization-intro">
     <h2>Resource Organization</h2>
     <p>At our organization, we understand the importance of effective resource organization. We strive to optimize our resources to maximize productivity, efficiency, and success. Our approach to resource organization encompasses various aspects, including:</p>
   </div>
-  
+
   <div class="resource-organization-categories">
     <h3>Categories of Resources</h3>
     <ul>
@@ -92,24 +94,25 @@ function closeNav() {
       <li>5. Information Resources</li>
     </ul>
   </div>
-  
+
   <div class="resource-organization-details">
     <h3>1. Human Resources</h3>
     <p>Our organization recognizes that our most valuable resource is our people. We focus on recruiting, developing, and retaining talented individuals who are passionate about our mission. We invest in training and professional development programs to enhance the skills and knowledge of our workforce. By fostering a positive and inclusive work environment, we empower our employees to contribute their best and achieve their full potential.</p>
-  
+
     <h3>2. Financial Resources</h3>
     <p>Effective financial resource management is essential for the success of our organization. We implement sound financial practices, including budgeting, forecasting, and financial analysis. By carefully allocating our financial resources, we ensure that we can fund our operations, projects, and initiatives. We also explore opportunities for funding partnerships and grants to expand our financial capabilities and drive innovation.</p>
-  
+
     <h3>3. Physical Resources</h3>
     <p>Our physical resources include facilities, equipment, and infrastructure necessary for our operations. We prioritize the maintenance, safety, and efficiency of our physical assets. Regular inspections, maintenance schedules, and investments in modern technology and equipment are part of our resource management strategy. By providing a conducive physical environment, we enable our employees to perform their tasks effectively and deliver high-quality results.</p>
-  
+
     <h3>4. Technological Resources</h3>
     <p>In today's digital age, technological resources play a crucial role in our organization. We leverage cutting-edge technologies and software solutions to streamline processes, enhance communication, and improve productivity. We invest in robust IT infrastructure, cybersecurity measures, and software applications to ensure the security and reliability of our technological resources. Regular upgrades and training programs are implemented to stay up-to-date with the latest advancements.</p>
-  
+
     <h3>5. Information Resources</h3>
     <p>Information is a valuable resource that drives decision-making and strategic planning. We have established efficient systems for collecting, organizing, and analyzing data and information. Our organization places great emphasis on data integrity, confidentiality, and accessibility. By utilizing information resources effectively, we gain insights, identify trends, and make informed decisions that contribute to our overall success.</p>
   </div>
 </section>
+
 
 
 

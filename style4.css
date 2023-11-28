@@ -1,11 +1,12 @@
 /* Responsive styles */
 @media (max-width: 768px) {
   .resource-organization {
-    margin-top: 20px;
+    margin-top: 200px; /* Adjusted margin-top from 400px to 200px for better positioning */
   }
 
   .resource-organization-image img {
     width: 100%;
+    height: auto;
   }
 
   .resource-organization-intro h2 {
@@ -28,6 +29,7 @@
     font-size: 14px;
   }
 }
+
 
   
   #mySided {
@@ -78,4 +80,20 @@
     #contact {
       top: 260px;
       background-color: aquamarine;
+  }
+
+  p{
+    color: white;
+  }
+
+  h3{
+    color: white;
+  }
+
+  li {
+    color: white;
+  }
+
+  h2 {
+    color: white;
   }
