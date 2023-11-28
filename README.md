@@ -1,9 +1,9 @@
 # DCIT_205_IA 
 
 Welcome to the README document for my personal website. 
-This website is about the Computer Science department in serves as a digital portfolio to showcase my skills and experiences in web development. It features an engaging design, easy navigation, and informative content about my professional journey.
+This website is about the Computer Science department it serves as a digital portfolio to showcase my skills and experiences in web development. It features an engaging design, easy navigation, and informative content about my professional journey.
  
-Purpose The purpose of this website is to:
+Purpose the purpose of this website is to:
  
 
 1. Showcase my skills and experience as a web developer: The website highlights my proficiency in various web development technologies, including HTML, CSS, JavaScript, and React.js.
