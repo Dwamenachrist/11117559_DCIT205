@@ -544,8 +544,8 @@ h1 {
 }
 
 .slide img {
-  width: 200px;
-  height: auto;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   margin-bottom: 20px;
 }
@@ -577,4 +577,18 @@ h1 {
 
 .read-more:hover {
   background-color: #2196F3;
+}
+
+/* Tablet styles (portrait and landscape) */
+@media (max-width: 768px) {
+  .slider-container {
+    max-width: 500px;
+  }
+}
+
+/* Phone styles (portrait and landscape) */
+@media (max-width: 480px) {
+  .slider-container {
+    max-width: 300px;
+  }
 }
