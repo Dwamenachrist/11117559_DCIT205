@@ -1,9 +1,9 @@
 # DCIT_205_IA 
 
-Welcome to the README document for my personal website. 
+Welcome to the README document for my website. 
 This website is about the Computer Science department it serves as a digital portfolio to showcase my skills and experiences in web development. It features an engaging design, easy navigation, and informative content about my professional journey.
  
-Purpose the purpose of this website is to:
+The purpose of this website is to:
  
 
 1. Showcase my skills and experience as a web developer: The website highlights my proficiency in various web development technologies, including HTML, CSS, JavaScript, and React.js.
@@ -24,20 +24,6 @@ Project Setup To clone and set up the project, follow these steps:
 
 git clone https://github.com/Dwamenachrist/11117559_DCIT205.git
 
-
-5. Install Dependencies: Navigate to the project directory and install the necessary dependencies using the following command:
- 
-
-npm install
- 
-
-6. Start the Development Server: Start the development server to view the website locally using the following command:
- 
-
-npm start
- 
-The website will be accessible at http://localhost:3000.
- 
 Developer Information
  
 
@@ -47,7 +33,7 @@ Developer Information
  
 
 Screenshots Please refer to the screenshots folder for images of each page of the website.
-I created a 10 pages website of the Computer Science Department
+I created a 10-page website for the Computer Science Department
 
  
 Lessons Learned Throughout the development of this project, I have gained valuable insights into web development best practices, including:
